@@ -4,17 +4,17 @@ with open("README.md", "r", encoding = "utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name = "everyair",
+    name = "pibo",
     version = "0.0.1",
     author = "Circulus Inc.",
     author_email = "info@circul.us",
     description = "Vision/Audio/Text AI SDK from pibo robot",
     long_description = long_description,
     long_description_content_type = "text/markdown",
-    url = "package URL",
-    project_urls = {
-        "Bug Tracker": "package issues URL",
-    },
+    url = "http://www.circul.us",
+    #project_urls = {
+    #    "Bug Tracker": "package issues URL",
+    #},
     classifiers = [
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
